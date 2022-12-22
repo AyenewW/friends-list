@@ -7,9 +7,9 @@ function FriendCard(props) {
     <img style={StyledImage} src={props.image} alt="one"/>
         <div className ="friend-description">
             <ul> 
-              <li>Name:{props.name}</li>
-                <li>Occupation:{props.occupation}</li>
-                <li>Location:{props.location}</li>
+              <li><strong>Name</strong>:{props.name}</li>
+                <li><strong>Occupation</strong>:{props.occupation}</li>
+                <li><strong>Location</strong>:{props.location}</li>
             </ul>
         </div>
         
