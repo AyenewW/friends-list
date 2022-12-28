@@ -38,8 +38,10 @@
 }*/
 .container{
   max-width:1200px;
-  background-color:#9db9bd;
+  background-color:#d8e4e4;
   margin: 0 auto;
-  
-   font-style: oblique;
+  margin-top: 100px;
+  padding: 2rem;
+  /* font-style: oblique; */
+  border:  solid rebeccapurple;
 }
